@@ -1,4 +1,4 @@
-# ASRClient [for KOREAN Language]
+# ASRClient
 
 ## PREREQUEST
 
@@ -11,7 +11,11 @@
 ## STEPS
 
 Record 5 seconds, and STT:
-python ASRClient_py27.py -u ws://dsvmyoh3aeorn6p3o.eastus.cloudapp.azure.com:8080/client/ws/speech ./output.wav
+python ASRClient_py27.py -u ws://[server]/client/ws/speech ./output.wav
 
 Use sample speech to test STT:
-python ASRClient_py27.py -u ws://dsvmyoh3aeorn6p3o.eastus.cloudapp.azure.com:8080/client/ws/speech ./sample.flac
+python ASRClient_py27.py -u ws://[server]/client/ws/speech ./sample.flac
+
+## REFERENCE
+
+https://github.com/alumae/kaldi-gstreamer-server
