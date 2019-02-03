@@ -1,6 +1,6 @@
 # ASRClient [for KOREAN Language]
 
-PREREQUEST
+## PREREQUEST
 
 #python 2.7
 
@@ -8,7 +8,7 @@ PREREQUEST
 
 #python -m pip install --user ws4py==0.3.2
 
-STEPS
+## STEPS
 
 Record 5 seconds, and STT:
 python ASRClient_py27.py -u ws://dsvmyoh3aeorn6p3o.eastus.cloudapp.azure.com:8080/client/ws/speech ./output.wav
