@@ -12,6 +12,8 @@ Record and send 16k rate .wav to ASR server and get response in UTF-8
 
 ## STEPS
 
+On Linux:
+
 Record 5 seconds, and STT:
 
 python ASRClient_py27.py -u ws://[server]/client/ws/speech ./output.wav
@@ -19,6 +21,23 @@ python ASRClient_py27.py -u ws://[server]/client/ws/speech ./output.wav
 Use sample speech to test STT:
 
 python ASRClient_py27.py -u ws://[server]/client/ws/speech ./sample.flac
+
+On Windows
+
+In Command Window, run to use UTF-8 codepage:
+
+chcp 65001
+
+And then run:
+
+Record 5 seconds, and STT:
+
+python ASRClient_py27.py -u ws://[server]/client/ws/speech ./output.wav
+
+Use sample speech to test STT:
+
+python ASRClient_py27.py -u ws://[server]/client/ws/speech ./sample.flac
+
 
 ## REFERENCE
 
