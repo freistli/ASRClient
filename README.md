@@ -1,5 +1,7 @@
 # ASRClient
 
+Record and send 16k rate .wav to ASR server and get response in UTF-8
+
 ## PREREQUEST
 
 #python 2.7
