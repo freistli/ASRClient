@@ -39,7 +39,7 @@ Use sample speech to test STT:
 python ASRClient_py27.py -u ws://[server]/client/ws/speech ./sample.flac
 
 ## Steps of Using HTTP service
-curl -T sample.flac "http://dsvmyoh3aeorn6p3o.eastus.cloudapp.azure.com:8080/client/dynamic/recognize"
+curl -T sample.flac "http://[server]/client/dynamic/recognize"
 
 
 ## REFERENCE
