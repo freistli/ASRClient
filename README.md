@@ -20,11 +20,11 @@ Refer to: http://people.csail.mit.edu/hubert/pyaudio/
 
 Record 5 seconds, and STT:
 
-python ASRClient_py27.py -u ws://[server]/client/ws/speech ./output.wav
+python ASRClient_py27.py -u ws://[server] ./output.wav
 
 Use sample speech to test STT:
 
-python ASRClient_py27.py -u ws://[server]/client/ws/speech ./sample.flac
+python ASRClient_py27.py -u ws://[server] ./sample.flac
 
 ### On Windows
 
@@ -36,11 +36,11 @@ And then run:
 
 Record 5 seconds, and STT:
 
-python ASRClient_py27.py -u ws://[server]/client/ws/speech ./output.wav
+python ASRClient_py27.py -u ws://[server] ./output.wav
 
 Use sample speech to test STT:
 
-python ASRClient_py27.py -u ws://[server]/client/ws/speech ./sample.flac
+python ASRClient_py27.py -u ws://[server] ./sample.flac
 
 ## Steps of Using HTTP service
 curl -T sample.flac "http://[server]/client/dynamic/recognize"
