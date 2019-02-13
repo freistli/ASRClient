@@ -180,7 +180,7 @@ def RunHTTPClient():
 
     data = json.loads(res)
     
-    print (res)
+    #print (res)
     print (data['hypotheses'][0]['utterance'].encode('utf-8'))
 
 def main():
