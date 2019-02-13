@@ -8,6 +8,8 @@ Record and send 16k rate .wav to ASR server and get response in UTF-8
 
 ### python -m pip install pyaudio
 
+### python -m pip install requests
+
 Refer to: http://people.csail.mit.edu/hubert/pyaudio/
 
 ### python -m pip install --user ws4py==0.3.2
