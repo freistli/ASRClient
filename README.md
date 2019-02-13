@@ -14,17 +14,17 @@ Refer to: http://people.csail.mit.edu/hubert/pyaudio/
 
 ### python -m pip install --user ws4py==0.3.2
 
-## STEPS of Using Websocket
+## STEPS of Using HTTP
 
 ### On Linux:
 
 Record 5 seconds, and STT:
 
-python ASRClient_py27.py -u ws://[server] ./output.wav
+python ASRClient_py27.py -u http://[server] ./output.wav
 
 Use sample speech to test STT:
 
-python ASRClient_py27.py -u ws://[server] ./sample.flac
+python ASRClient_py27.py -u http://[server] ./sample.flac
 
 ### On Windows
 
@@ -36,13 +36,13 @@ And then run:
 
 Record 5 seconds, and STT:
 
-python ASRClient_py27.py -u ws://[server] ./output.wav
+python ASRClient_py27.py -u http://[server] ./output.wav
 
 Use sample speech to test STT:
 
-python ASRClient_py27.py -u ws://[server] ./sample.flac
+python ASRClient_py27.py -u http://[server] ./sample.flac
 
-## Steps of Using HTTP service
+## Steps of Using Curl
 curl -T sample.flac "http://[server]/client/dynamic/recognize"
 
 
