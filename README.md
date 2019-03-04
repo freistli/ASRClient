@@ -2,6 +2,10 @@
 
 Record and send 16k rate .wav to ASR server and get response in UTF-8
 
+Support flac, wav in HTTP mode
+Support flac in Websocket mode
+Suggest to use flac which supports websocket, and size is smaller comparing to wav
+
 ## PREREQUEST
 
 ### python 2.7 (>=2.7.12)
