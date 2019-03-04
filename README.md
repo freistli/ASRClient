@@ -14,6 +14,9 @@ Refer to: http://people.csail.mit.edu/hubert/pyaudio/
 
 ### python -m pip install --user ws4py==0.3.2
 
+### When use linux versoin, install audiotools to convert wav to flac, so that you can use websocket easily:
+    http://audiotools.sourceforge.net/
+
 ## STEPS of Using HTTP
 
 ### On Linux:
