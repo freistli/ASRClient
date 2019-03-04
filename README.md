@@ -8,6 +8,8 @@ Support flac in Websocket mode
 
 Suggest to use flac which supports websocket, and size is smaller comparing to wav
 
+Use linux version can auto convert wav to flac
+
 
 ## PREREQUEST
 
@@ -32,9 +34,13 @@ Record 5 seconds, and STT:
 
 python ASRClient_py27.py -u http://[server] ./output.wav
 
+python ASRClient_py27_linux.py -u ws://[server] ./output.wav
+
 Use sample speech to test STT:
 
 python ASRClient_py27.py -u http://[server] ./sample.flac
+
+python ASRClient_py27.py -u ws://[server] ./sample.flac
 
 ### On Windows
 
@@ -51,6 +57,8 @@ python ASRClient_py27.py -u http://[server] ./output.wav
 Use sample speech to test STT:
 
 python ASRClient_py27.py -u http://[server] ./sample.flac
+
+python ASRClient_py27.py -u ws://[server] ./sample.flac
 
 ## Steps of Using Curl
 curl -T sample.flac "http://[server]/client/dynamic/recognize"
