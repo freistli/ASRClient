@@ -3,7 +3,7 @@
 #python -m pip install pyaudio
 #python -m pip install --user ws4py==0.3.2
 #python -m pip install requests
-#apt-get install python-pyaudio
+#install audiotools http://audiotools.sourceforge.net/ 
 
 import pyaudio
 import wave
